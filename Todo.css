@@ -1,0 +1,155 @@
+body{
+    background-color: rgba(2,54,74);
+}
+.todo-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+/* Formulaire - s'adapte au contenu */
+.todo-form {
+    background-color: rgb(2, 77, 96); 
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    min-height: 90px;
+    text-align: center;
+    transition: Border 0.5s ;
+    border: rgb(2, 77, 96);
+}
+.todo-form:hover{
+    border: 1px solid rgb(44, 172, 173);
+}
+/*  */
+/* Input qui s'agrandit */
+.todo-input {
+    width: 60%;
+    height: 25px;
+    padding: 12px;
+    font-size: 16px;
+    border: 2px solid rgb(44, 172, 173);
+    border-radius: 5px;
+    margin-bottom: 10px;
+    /* transition: all 0.3s ; */
+    transition: Border 0.5s ;
+    box-sizing: border-box;
+}
+/*  */
+/* .todo-input:focus { */
+    /* border: 1px solid rgb(68, 163, 163); */
+    /* box-shadow: 0 0 8px rgba(33, 150, 243, 0.3); */
+/* } */
+/*  */
+/* .todo-btn { */
+    /* padding: 10px 20px; */
+    /* border: ; */
+    /* border-radius: 15px; */
+    /* box-shadow: inset; */
+    /* cursor: pointer; */
+    /* font-size: 15px; */
+    /* transition: all 0.3s ease; */
+    /* flex: 1; */
+    /* min-width: 120px; */
+    /* color: rgb(44, 172, 173); */
+/* } */
+
+.add-btn {
+    background: rgb(44, 172, 173);
+    border: 1px solid rgb(44, 172, 173);
+    border-radius: 5px;
+    width: 100px;
+    height: 20px;
+    margin: 10px 20px; 
+    color: white;
+}
+.add-btn:focus {
+    background: rgba(117, 226, 224, 0.87);
+    transform: translateY(-2px);
+}
+
+.update-btn {
+    background: rgb(44, 172, 173);
+    border: 1px solid rgb(44, 172, 173);
+    border-radius: 5px;
+    width: 100px;
+    height: 20px;
+    margin: 10px 20px; 
+    color: white;
+}
+
+.update-btn:hover {
+    background: rgba(117, 226, 224, 0.87);
+    transform: translateY(-2px);
+}
+/* Liste des tâches - s'agrandit automatiquement */
+.todo-list {
+    background: rgb(2, 77, 96);
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    min-height: 100px;
+    /* transition: all 0.3s ease; */
+    transition: Border 0.5s ;
+}
+.todo-list:hover{
+    border: 1px solid rgb(44, 172, 173);
+}
+/* Item de tâche individuel */
+.todo-item {
+    background: rgba(2,54,74);
+    border: 1px solid rgba(2,54,74);;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 15px;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+.todo-item:hover {
+    transform: translateX(5px);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+.todo-item::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 5px;
+    background: rgba(117, 226, 224, 0.87);
+}
+.task-btn{
+    background: rgb(44, 172, 173);
+    border: 1px solid rgb(44, 172, 173);
+    border-radius: 5px;
+    width: 100px;
+    height: 20px;
+    margin: 5px ; 
+    color: white;
+}
+.task-btn:focus{
+    background: rgba(117, 226, 224, 0.87);
+    transform: translateY(-2px);
+}
+.clear-btn{
+    background: rgba(2,54,74);
+    border: 1px solid rgb(44, 172, 173);
+    border-radius: 5px;
+    width: 150px;
+    height: 20px;
+    margin: 5px ; 
+    color: rgba(117, 226, 224, 0.87);
+}
+.p{
+    color: rgb(13, 14, 32);
+    text-align: center;
+}
+.your-task{
+    color:rgb(13, 14, 32);
+}
+.date{
+    color: rgb(44, 172, 173);
+    margin: 10px;
+}
