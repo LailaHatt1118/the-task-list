@@ -3,6 +3,9 @@ TaskList Todo
 
 A clean and intuitive task management web app designed to help you organize your daily todos with ease and efficiency.
 
+<img width="1344" height="616" alt="image" src="https://github.com/user-attachments/assets/b8741901-e5ce-4a77-b86c-078e0aa05209" />
+
+
 visit website : https://the-tasklist-todo.netlify.app
 
 Overview
@@ -16,4 +19,3 @@ _Deployment: Netlify
 
 Stay productive 👌
 
-<img width="1344" height="616" alt="image" src="https://github.com/user-attachments/assets/b8741901-e5ce-4a77-b86c-078e0aa05209" />
