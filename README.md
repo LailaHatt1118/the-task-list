@@ -1,4 +1,3 @@
-<img width="1344" height="616" alt="image" src="https://github.com/user-attachments/assets/b8741901-e5ce-4a77-b86c-078e0aa05209" />
 
 TaskList Todo
 
@@ -16,3 +15,5 @@ _Frontend: React.js / Tailwind CSS.
 _Deployment: Netlify
 
 Stay productive 👌
+
+<img width="1344" height="616" alt="image" src="https://github.com/user-attachments/assets/b8741901-e5ce-4a77-b86c-078e0aa05209" />
